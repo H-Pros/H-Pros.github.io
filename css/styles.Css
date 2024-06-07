@@ -1,0 +1,295 @@
+H3 {
+    font-family: "'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif";
+    color: goldenrod;
+    text-align: center;
+  }
+  H5 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: goldenrod;
+    text-align: Center;
+  }
+  
+  h1 {
+    border: 4px solid goldenrod;
+    font-family: Times New Roman;
+    text-align: center;
+  }
+  h2 {
+    background-color: goldenrod;
+    text-align: center;
+
+  }
+  H4 {
+    color: black;
+    text-align: center;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  ul {
+    list-style-type: none;
+  }
+  p {color:Black ; text-align:center;
+}
+  .p1 { 
+    color:rgb(255, 255, 254); 
+    text-align:justify; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: x-large;
+   text-align: center;
+   
+} 
+.p2 { 
+  color:rgb(255, 230, 3); 
+  text-align:left; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: x-large;
+ margin-left: 4px;
+
+ 
+}
+.p3 { 
+  color:rgb(252, 252, 251); 
+  text-align:left; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: large;
+ margin-left: 4px;
+
+ 
+}
+.p4 { 
+  color:rgb(235, 235, 12); 
+  text-align:center; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: large;
+ margin-left: 4px;
+
+ 
+}
+.p5 { 
+  color:rgb(0, 0, 0); 
+  text-align:left; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: x-large;
+ font-style: italic ;
+ margin-left: 4px;
+
+ 
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: goldenrod;
+  }
+ 
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:goldenrod;
+  }
+  p {font-size: x-large; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) { 
+  body    {
+      padding-left: 50px;
+      padding-right: 50px;
+      background-color: gold;
+      
+  }
+  li a {display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1199px) { 
+  body    {
+      padding-left: 30px;
+      padding-right: 30px;
+      background-color: goldenrod;
+  }
+  li a {display: block;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+  body    {
+      padding-left: 20px;
+      padding-right: 20px;
+      background-color: tan;
+  }
+  li a {display: block;
+    color: rgb(192, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+  body    {
+      padding-left: 5px;
+      padding-right: 5px;
+      background-color: yellow;
+  }
+  li a {display: block;
+    color: rgb(0, 21, 138);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+}
+}
+
+label {
+  color: lightcyan;
+  background-color: black;
+
+}
+button {
+  background-color:goldenrod;
+  display: block;
+  margin: auto;
+}
+iframe
+{ display: block;
+  margin: auto;
+}
+audio
+{ display: block;
+  margin: auto;
+}
+.myDiv {
+  border: 5px outset transparent;
+  background-color: goldenrod;
+  text-align: center;
+}
+.bodysombre 
+{
+  background: 
+    linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.616)
+    ),
+   url(../images/claudia-altamimi-y0u6nf6BA1s-unsplash.jpg);
+   background-repeat:no-repeat;
+   background-size:cover"
+    
+}
+.bodysombre1 
+{
+  background: 
+    linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../images/c3debf7fb82228d5d49e8a80408aceac.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed; 
+  background-size: 100% 100%;
+   
+}
+.bodygroundi
+{
+  background: 
+  url(../images/jono-hirst-B_BcXW5UFjA-unsplash.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+
+   
+}
+.bodyground1 
+{
+  background: 
+  url(../images/citadel-la-ferriere-1171942_1920.jpg);
+  background-repeat:no-repeat;
+  background-attachment:fixed; 
+  background-size: 100% 100%;
+   
+}
+
+.bodyground2{
+  background: 
+  url(../images/labadee-haiti-zipline-coast.avif);
+   background-repeat:no-repeat;
+   background-attachment:fixed; 
+  background-size: 100% 100%;
+   
+}
+.bodyground4 
+{
+  background: 
+  url(../images/haiti-labadee-port-w3n72rgr30gfmqyq.jpg);
+  background-repeat:no-repeat;
+  background-attachment:fixed; 
+  background-size: 100% 100%;
+    
+   
+}.bodyground5
+{
+  background: 
+  url(../images/international-2693195_1920.jpg);
+  background-repeat:no-repeat;
+   background-attachment:fixed; 
+  background-size: 100% 100%;
+   background-color: lightcyan; 
+   
+}.bodyground6
+{
+  background: 
+  url(../images/patrice-s-dorsainville-ocfVsfRXTUc-unsplash.jpg);
+  background-repeat:no-repeat;
+  background-attachment:fixed; 
+  background-size: 100% 100%;
+   
+}.bodyground7
+{
+  background: 
+  url(../images/tim-wildsmith-lhDkQXfddvc-unsplash.jpg);
+  background-repeat:no-repeat;
+  background-attachment:fixed; 
+  background-size: cover;
+  background-position-y: center ;
+   
+}
+.faq {
+  background-color: rgb(226, 189, 140); 
+  color: rgb(133, 128, 128);
+  border: 2px solid black;
+  margin: 2px;
+  padding: 2px;
+}
